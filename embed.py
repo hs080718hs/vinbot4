@@ -18,7 +18,7 @@ async def on_ready():
 
 @client.event
 async def on_message(message):
-    if message.content.startswith("!색깔"):
+    if message.content.startswith("빈센아 색깔"):
         await message.channel.send('`빨강` `주황` `노랑` `초록` `파랑` `보라` `분홍` `검정` `민트` `하늘` `갈색` `회색` `남색`')
 
     if message.content.startswith("!임베드"):
